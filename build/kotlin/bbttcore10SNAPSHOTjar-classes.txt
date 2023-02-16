@@ -1,0 +1,1 @@
+C:\Users\dys\Desktop\java\bbttcore\build\classes\kotlin\main\com\zszf\bbttcore\BukkitPlugin.class

@@ -1,0 +1,3 @@
+elytraSpeedLimit: true
+# 每一次玩家移动事件准许移动的最多距离
+elytraSpeedLimitV: 5

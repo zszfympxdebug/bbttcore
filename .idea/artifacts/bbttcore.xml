@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="bbttcore">
+    <output-path>$PROJECT_DIR$/out/artifacts/bbttcore</output-path>
+    <root id="archive" name="bbttcore.jar">
+      <element id="module-output" name="bbttcore.main" />
+    </root>
+  </artifact>
+</component>
