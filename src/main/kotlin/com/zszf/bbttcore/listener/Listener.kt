@@ -7,6 +7,7 @@ class Listener {
     companion object{
         fun registry(){
             Bukkit.getPluginManager().registerEvents(PlayerMoveEvent, BukkitPlugin.instance)
+            Bukkit.getPluginManager().registerEvents(superChicken, BukkitPlugin.instance)
         }
     }
 }

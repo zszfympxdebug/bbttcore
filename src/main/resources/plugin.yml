@@ -1,3 +1,6 @@
 main: com.zszf.bbttcore.BukkitPlugin
 version: ${version}
 name: bbttcore
+permissions:
+  bbttcore.superchicken.use:
+    default: op
