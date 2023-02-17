@@ -1,5 +1,6 @@
 package com.zszf.bbttcore
 
+import com.zszf.bbttcore.commands.Commands
 import com.zszf.bbttcore.listener.Listener
 import org.bukkit.plugin.java.JavaPlugin
 
@@ -9,9 +10,9 @@ class BukkitPlugin : JavaPlugin() {
         logger.info("启用bbttcore ${description.version} 作者为zszf")
         instance = this
         Listener.registry()
+        Commands.registry()
     }
     companion object{
         var instance: BukkitPlugin? = null;
-
     }
 }

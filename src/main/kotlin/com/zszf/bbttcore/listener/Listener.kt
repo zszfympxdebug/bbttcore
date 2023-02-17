@@ -8,6 +8,8 @@ class Listener {
         fun registry(){
             Bukkit.getPluginManager().registerEvents(PlayerMoveEvent, BukkitPlugin.instance)
             Bukkit.getPluginManager().registerEvents(superChicken, BukkitPlugin.instance)
+            Bukkit.getPluginManager().registerEvents(PlayerLoginEvent, BukkitPlugin.instance)
+            Bukkit.getPluginManager().registerEvents(DispenseEvent, BukkitPlugin.instance)
         }
     }
 }
