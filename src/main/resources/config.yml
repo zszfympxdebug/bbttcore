@@ -15,4 +15,6 @@ ops:
   - zszf
 # 是否启用发射器复制
 enableDispenseDupe: true
+# 是否启用n+1
+enableShulkerDupe: true
 

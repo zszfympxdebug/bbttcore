@@ -12,6 +12,10 @@ class BukkitPlugin : JavaPlugin() {
         Listener.registry()
         Commands.registry()
     }
+
+    override fun onDisable() {
+        logger.info("Disable bbttcore nmsl!")
+    }
     companion object{
         var instance: BukkitPlugin? = null;
     }

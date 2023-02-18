@@ -1,3 +1,20 @@
 elytraSpeedLimit: true
 # 每一次玩家移动事件准许移动的最多距离
 elytraSpeedLimitV: 5
+# 鸡刷复制设置
+# 是否启用
+superChicken_enable: true
+# 鸡刷复制数量
+superChicken_dupeNum: 5
+# 鸡刷CD
+superChicken_dupeCD: 1000
+# 指令复制数量
+dupe_num: 5
+# 指定的管理
+ops:
+  - zszf
+# 是否启用发射器复制
+enableDispenseDupe: true
+# 是否启用n+1
+enableShulkerDupe: true
+

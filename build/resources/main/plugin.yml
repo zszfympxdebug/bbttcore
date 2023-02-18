@@ -1,3 +1,15 @@
 main: com.zszf.bbttcore.BukkitPlugin
 version: ${version}
 name: bbttcore
+permissions:
+  bbttcore.superchicken.use:
+    default: op
+  bbttcore.commandDupe.dupe.use:
+    default: op
+  bbttcore.shulkerDupe.use:
+    default: op
+commands:
+  dupe:
+    description: "dupe kit"
+  delitem:
+    description: "del items"

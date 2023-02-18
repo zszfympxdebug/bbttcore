@@ -6,6 +6,8 @@ permissions:
     default: op
   bbttcore.commandDupe.dupe.use:
     default: op
+  bbttcore.shulkerDupe.use:
+    default: op
 commands:
   dupe:
     description: "dupe kit"
