@@ -1,8 +1,10 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
+import com.github.jengelman.gradle.plugins.shadow.tasks.ShadowJar
 
 plugins {
     java
     kotlin("jvm") version "1.7.21"
+    id("com.github.johnrengelman.shadow") version "7.0.0"
 }
 
 group = "org.example"
@@ -10,7 +12,6 @@ version = "1.0-SNAPSHOT"
 
 repositories {
     mavenCentral()
-    maven { url = uri("https://maven.aliyun.com/repository/public/") }
     maven { url = uri("https://repo.papermc.io/repository/maven-public/") }
 }
 
@@ -25,4 +26,7 @@ tasks.test {
 
 tasks.withType<KotlinCompile> {
     kotlinOptions.jvmTarget = "1.8"
+}
+tasks.withType<ShadowJar> {
+    archiveFileName.set("bbttcore.jar")
 }
